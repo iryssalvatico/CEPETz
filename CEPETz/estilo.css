@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 1.4rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1400px;
+  margin: 10px auto;
+}
+header input#menu-toggle {
+  display: none;
+}
+header div.menu {
+  display: flex;
+  width: 100%;
+}
+header div.menu div {
+  display: flex;
+  width: 100%;
+}
+header div.menu div ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: space-around;
+}
+header div.menu div ul li {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+header div.menu div ul li a {
+  text-decoration: none;
+  color: black;
+}
+header div.menu div.menu-left ul li {
+  align-items: flex-end;
+}
+header div.menu div.menu-left ul li a {
+  font-weight: bolder;
+}
+
+/* footer */
+footer{
+  background-color: #C4C4C4;
+}
+footer input#footer-toggle {
+  display: none;
+}
+footer div.footer {
+  display: flex;
+  width: 100%;
+}
+footer div.footer div {
+  display: flex;
+  width: 100%;
+}
+footer div.footer div ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: space-around;
+}
+footer div.footer div ul li {
+  display: flex;
+  align-items: flex-end;
+  margin: 40px;
+}
+footer div.footer div ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer div.footer div.footer-left ul li {
+  align-items: flex-end;
+}
+footer div.footer div.footer-left ul li a {
+  font-weight: bolder;
+}
+
+.footer{
+  background-color: #C4C4C4;
+  border-color: black;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  padding: 5px;  
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding-left:10px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+
+
+
+
+

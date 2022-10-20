@@ -1,0 +1,60 @@
+/* cabecalho */
+.cabecalho{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.lista{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.lista li{
+    padding-left:10px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* main */
+.conteudo {
+    background-color: #807287;
+}
+
+
+/* rodape */
+.rodape{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.listarodape{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.listarodape li{
+    padding-left:40px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}

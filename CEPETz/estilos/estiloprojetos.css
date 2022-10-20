@@ -1,0 +1,114 @@
+
+/* cabecalho */
+.cabecalho{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.lista{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.lista li{
+    padding-left:10px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* main */
+.projetos h1{
+    font-family:"Mukta";
+    font-size: 50px;
+    background-color: #C4C4C4 ;
+    border-radius: 5px;
+}
+.projetos .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.projetos {
+    background-color: #807287;
+    align-items: center;
+}
+.projetos .imagens {
+    display: flex;
+    margin-bottom: 40px;
+}
+.imagens img {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.projetos p{
+    font-family:"Mukta";
+    font-size: 20px;
+    text-align:center;
+    text-indent: 10px;
+}
+.projetos .paragrafo{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.fundo {
+    background-color: #BAAEBE;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+body{
+    background-color: #807287;
+}
+
+/* rodape */
+.rodape{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.listarodape{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.listarodape li{
+    padding-left:40px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}

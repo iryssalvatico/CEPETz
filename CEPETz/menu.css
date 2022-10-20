@@ -1,0 +1,172 @@
+@media (max-width: 690px) {
+    header label[for="menu-toggle"] {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+    }
+    header label[for="menu-toggle"] div.menu-hamburger {
+      width: 35px;
+      height: 15px;
+      margin: 15px 2px 5px 5px;
+      cursor: pointer;
+    }
+    header.container {
+      flex-wrap: wrap;
+    }
+    header div.menu {
+      display: none;
+      animation: fade-out 1s;
+    }
+    header label[for="menu-toggle"] div.menu-hamburger span.hamburger {
+      position: relative;
+      display: block;
+      background-color: black;
+      width: 30px;
+      height: 2px;
+    }
+    header label[for="menu-toggle"] div.menu-hamburger span.hamburger:before,
+    header label[for="menu-toggle"] div.menu-hamburger span.hamburger:after {
+      position: absolute;
+      display: block;
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      content: "";
+    }
+    header label[for="menu-toggle"] div.menu-hamburger span.hamburger:before {
+      top: -10px;
+    }
+    header label[for="menu-toggle"] div.menu-hamburger span.hamburger:after {
+      bottom: -10px;
+    }
+    header input:checked ~ div.menu {
+      display: block;
+      animation: fade-in 1s;
+    }
+    header input:checked ~ div.menu div ul {
+      display: flex;
+      flex-direction: column;
+    }
+    header input:checked ~ div.menu div.menu-right {
+      justify-content: flex-start;
+    }
+    header input:checked ~ label .hamburger {
+      transform: rotate(45deg);
+      transition: 0.5s;
+    }
+    header input:checked ~ label .hamburger:before,
+    header input:checked ~ label .hamburger:after {
+      transform: rotate(90deg);
+      transition: 0.5s;
+    }
+    header
+      input:checked
+      ~ label[for="menu-toggle"]
+      div.menu-hamburger
+      span.hamburger:before {
+      top: 0px;
+    }
+    header
+      input:checked
+      ~ label[for="menu-toggle"]
+      div.menu-hamburger
+      span.hamburger:after {
+      bottom: 0px;
+    }
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @keyframes fade-out {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+
+
+    /* footer */
+
+    footer label[for="footer-toggle"] {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+    }
+    footer label[for="footer-toggle"] div.menu-hamburger {
+      width: 35px;
+      height: 15px;
+      margin: 15px 2px 5px 5px;
+      cursor: pointer;
+    }
+    footer.container {
+      flex-wrap: wrap;
+    }
+    footer div.footer {
+      display: none;
+      animation: fade-out 1s;
+    }
+    footer label[for="footer-toggle"] div.menu-hamburger span.hamburger {
+      position: relative;
+      display: block;
+      background-color: black;
+      width: 30px;
+      height: 2px;
+    }
+    footer label[for="footer-toggle"] div.menu-hamburger span.hamburger:before,
+    footer label[for="footer-toggle"] div.menu-hamburger span.hamburger:after {
+      position: absolute;
+      display: block;
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      content: "";
+    }
+    footer label[for="footer-toggle"] div.menu-hamburger span.hamburger:before {
+      top: -10px;
+    }
+    footer label[for="footer-toggle"] div.menu-hamburger span.hamburger:after {
+      bottom: -10px;
+    }
+    footer input:checked ~ div.footer {
+      display: block;
+      animation: fade-in 1s;
+    }
+    footer input:checked ~ div.footer div ul {
+      display: flex;
+      flex-direction: column;
+    }
+    footer input:checked ~ div.footer div.footer-right {
+      justify-content: flex-start;
+    }
+    footer input:checked ~ label .hamburger {
+      transform: rotate(45deg);
+      transition: 0.5s;
+    }
+    footer input:checked ~ label .hamburger:before,
+    footer input:checked ~ label .hamburger:after {
+      transform: rotate(90deg);
+      transition: 0.5s;
+    }
+    footer
+      input:checked
+      ~ label[for="footer-toggle"]
+      div.menu-hamburger
+      span.hamburger:before {
+      top: 0px;
+    }
+    footer
+      input:checked
+      ~ label[for="footer-toggle"]
+      div.menu-hamburger
+      span.hamburger:after {
+      bottom: 0px;
+    }
+
+
+  }

@@ -1,0 +1,118 @@
+/* cabecalho */
+.cabecalho{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.lista{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.lista li{
+    padding-left:10px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* main */
+.sobrenos h1{
+    font-family:"Mukta";
+    font-size: 50px;
+    background-color: #C4C4C4 ;
+    border-radius: 5px;
+}
+.sobrenos h2{
+    font-family:"Mukta";
+    font-size: 30px;
+    background-color: #C4C4C4 ;
+    border-radius: 5px;
+}
+.sobrenos .titulo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.sobrenos .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.sobrenos {
+    background-color: #807287;
+}
+.sobrenos p{
+    font-family:"Mukta";
+    font-size: 20px;
+    text-align:justify;
+    text-indent: 10px;
+}
+.sobrenos .paragrafo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BAAEBE ;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.sobrenos .logoyt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+body{
+    background-color: #807287;
+}
+
+/* rodape */
+.rodape{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.listarodape{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.listarodape li{
+    padding-left:40px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
